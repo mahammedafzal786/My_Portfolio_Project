@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(223,218,218);
+    /* width: 300px; */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100vh auto;
+    transition: transform 0.3 ease-in;
+}
+.sidebar nav{
+    padding: 40px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 34px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+
+}
+.main{
+    width: 90vw;
+}
+.container{
+    display: flex;
+
+}
+.infocontainer{
+    /* background-color:pink; */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devPic img{
+    height: 58vh;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+}
+.hello{
+    font-size: 3em;
+
+}
+.name{
+    font-size: 3em;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about{
+    font-size: 2.5em;
+}
+.moreabout{
+    font-size: 18px;
+    margin-top: 23px;
+    margin-bottom: 20px;
+}
+.buttons {
+    margin-top: 2.2em;
+    font-size: 6px;
+
+}
+.btn button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3 px;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color:white;
+    color: dodgerblue;
+}
+.btn-sm{
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+.contectform{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0 34px;
+    /* padding-top: 144px; */
+    margin: 88px 88px;
+}
+.contectform form{
+    margin: 0 30px;
+}
+.contectform h1{
+    /* text-align: center; */
+    padding: 12px;
+}
+.contectform form div{
+    padding: 10px 0;
+    display:flex;
+    flex-direction: column;
+}
+.contectform form div input{
+    /* width: 26vw; */
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+#emailHelp{
+    font-size: 12px;
+    color: mediumblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+.blogcontainer{
+    margin: 0 88px;
+}
+.blogitem{
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 23px;
+}
+ p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.intro{
+    margin: 88px 88px;
+}
+.intro h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 12px;
+
+}
+.intro p{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     margin: 12px;
+}
+.skillcontainer{
+    padding: 12px;
+}
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hundred{
+    width: 265px;
+    background-color: blueviolet;
+}
+.fifty{
+    width: 125px;
+    background-color: aqua;
+}
+.t5{
+    width: 75px;
+    background-color: yellow;
+}
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.cross{
+    margin-left: 155px ;
+    margin-top: 10px;
+}
+/* 
+@media (max-width:1615px){
+    *{
+        background-color: rgb(230, 146, 146);
+    }
+     .devPic{
+        display: none;
+     }
+     .intro, .blogcontainer, .contectform{
+        margin: 50px 8px;
+     }
+} */
+
+.services{
+    margin: 88px 88px;
+}
+.services h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 12px;
+}
+
+.services p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 12px;
+}
+ol{
+    margin-left: 30px;
+}
+.services-text{
+    margin-left: 20px;
+    font-size: 15px;
+}
