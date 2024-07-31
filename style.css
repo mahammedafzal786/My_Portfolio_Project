@@ -1,35 +1,42 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.sidebar{
-    background-color: rgb(223,218,218);
+
+.sidebar {
+    background-color: rgb(223, 218, 218);
     /* width: 300px; */
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     height: 100vh auto;
     transition: transform 0.3 ease-in;
 }
-.sidebar nav{
+
+.sidebar nav {
     padding: 40px;
 }
-.sidebar nav li{
+
+.sidebar nav li {
     list-style: none;
     font-size: 25px;
     padding: 34px 0;
 }
-.sidebar nav li a{
+
+.sidebar nav li a {
     text-decoration: none;
     color: black;
 
 }
-.main{
+
+.main {
     width: 90vw;
 }
-.container{
+
+.container {
     display: flex;
 
 }
-.infocontainer{
+
+.infocontainer {
     /* background-color:pink; */
     height: 58vh;
     width: 80vw;
@@ -37,39 +44,47 @@
     display: flex;
     justify-content: space-around;
 }
-.devPic img{
+
+.devPic img {
     height: 58vh;
 }
-.devInfo{
+
+.devInfo {
     display: flex;
     justify-content: center;
     flex-direction: column;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 10px;
 }
-.hello{
+
+.hello {
     font-size: 3em;
 
 }
-.name{
+
+.name {
     font-size: 3em;
     font-weight: bold;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.about{
+
+.about {
     font-size: 2.5em;
 }
-.moreabout{
+
+.moreabout {
     font-size: 18px;
     margin-top: 23px;
     margin-bottom: 20px;
 }
+
 .buttons {
     margin-top: 2.2em;
     font-size: 6px;
 
 }
-.btn button{
+
+.btn button {
     padding: 9px 14px;
     border-radius: 22px;
     color: white;
@@ -79,123 +94,151 @@
     margin: 0 3 px;
     cursor: pointer;
 }
-.btn button:hover{
-    background-color:white;
+
+.btn button:hover {
+    background-color: white;
     color: dodgerblue;
 }
-.btn-sm{
+
+.btn-sm {
     font-size: 10px;
     padding: 7px 13px;
     margin: 10px 0;
 }
-.contectform{
+
+.contectform {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 0 34px;
     /* padding-top: 144px; */
     margin: 88px 88px;
 }
-.contectform form{
+
+.contectform form {
     margin: 0 30px;
 }
-.contectform h1{
+
+.contectform h1 {
     /* text-align: center; */
     padding: 12px;
 }
-.contectform form div{
+
+.contectform form div {
     padding: 10px 0;
-    display:flex;
+    display: flex;
     flex-direction: column;
 }
-.contectform form div input{
+
+.contectform form div input {
     /* width: 26vw; */
     border-radius: 5px;
     margin: 6px 0 0 0;
     padding: 3px;
 }
-#emailHelp{
+
+#emailHelp {
     font-size: 12px;
     color: mediumblue;
     margin: 0 5px;
     padding: 3px 0 0 0;
 }
-#form-check{
+
+#form-check {
     flex-direction: row;
 }
-#form-check input{
+
+#form-check input {
     width: 24px;
     margin: 3px 0;
 }
-.blogcontainer{
+
+.blogcontainer {
     margin: 0 88px;
 }
-.blogitem{
+
+.blogitem {
     margin: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
- h1{
+
+h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 23px;
 }
- p{
+
+p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.intro{
+
+.intro {
     margin: 88px 88px;
 }
-.intro h2{
+
+.intro h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 12px;
 
 }
-.intro p{
-     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-     margin: 12px;
+
+.intro p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 12px;
 }
-.skillcontainer{
+
+.skillcontainer {
     padding: 12px;
 }
-.skill{
+
+.skill {
     width: 265px;
     height: 6px;
     background-color: red;
     border: 2px solid black;
 }
-.skillitem{
+
+.skillitem {
     display: flex;
     align-items: center;
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.hundred{
+
+.hundred {
     width: 265px;
     background-color: blueviolet;
 }
-.fifty{
+
+.fifty {
     width: 125px;
     background-color: aqua;
 }
-.t5{
+
+.t5 {
     width: 75px;
     background-color: yellow;
 }
-.sidebarGo{
-    transform: translate(-443px,0px);
+
+.sidebarGo {
+    transform: translate(-443px, 0px);
     position: absolute;
 }
-.hamburger{
+
+.hamburger {
     position: absolute;
     cursor: pointer;
     top: 10px;
     left: 10px;
 }
-.ham{
+
+.ham {
     margin-top: 10px;
     margin-left: 10px;
 }
-.cross{
-    margin-left: 155px ;
+
+.cross {
+    margin-left: 155px;
     margin-top: 10px;
 }
+
 /* 
 @media (max-width:1615px){
     *{
@@ -209,22 +252,25 @@
      }
 } */
 
-.services{
+.services {
     margin: 88px 88px;
 }
-.services h2{
+
+.services h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 12px;
 }
 
-.services p{
+.services p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 12px;
 }
-ol{
+
+ol {
     margin-left: 30px;
 }
-.services-text{
+
+.services-text {
     margin-left: 20px;
     font-size: 15px;
 }
